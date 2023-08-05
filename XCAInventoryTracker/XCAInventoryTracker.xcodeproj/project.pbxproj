@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C270A13C2A7DB28C003524E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270A13B2A7DB28C003524E7 /* AppDelegate.swift */; };
+		C270A13D2A7DB28C003524E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270A13B2A7DB28C003524E7 /* AppDelegate.swift */; };
+		C28EFD5E2A7DC0C200D59D37 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EFD5D2A7DC0C200D59D37 /* Inventory.swift */; };
+		C28EFD5F2A7DC0C200D59D37 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EFD5D2A7DC0C200D59D37 /* Inventory.swift */; };
+		C2B446692A7DC43600DE7769 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446682A7DC43600DE7769 /* String+Extension.swift */; };
+		C2B4466A2A7DC43600DE7769 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446682A7DC43600DE7769 /* String+Extension.swift */; };
+		C2B4466D2A7DC4B800DE7769 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4466C2A7DC49200DE7769 /* InventoryListView.swift */; };
+		C2B4466E2A7DC79000DE7769 /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446672A7DC2D900DE7769 /* InventoryListVM.swift */; };
+		C2B4466F2A7DC79100DE7769 /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446672A7DC2D900DE7769 /* InventoryListVM.swift */; };
+		C2B446712A7DE5FF00DE7769 /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446702A7DE5FF00DE7769 /* InventoryFormView.swift */; };
+		C2B446752A7DE92200DE7769 /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446742A7DE65E00DE7769 /* InventoryFormVM.swift */; };
+		C2B446782A7E4E8E00DE7769 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B446772A7E4E8900DE7769 /* InventoryListView.swift */; };
+		C2BAD3DA2A7E7D620022995C /* USDZItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD3D92A7E7D620022995C /* USDZItemProvider.swift */; };
+		C2C4963C2A7E59A10096316B /* NavigationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4963B2A7E59970096316B /* NavigationVM.swift */; };
+		C2C4963E2A7E5A090096316B /* InventoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4963D2A7E5A090096316B /* InventoryItemView.swift */; };
+		C2C496402A7E5A4B0096316B /* InventoryItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4963F2A7E5A4B0096316B /* InventoryItemVM.swift */; };
+		C2C496422A7E618C0096316B /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C496412A7E618C0096316B /* URL+Extension.swift */; };
+		C2FE28402A7D9FF5002B80CB /* XCAInventoryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE283F2A7D9FF5002B80CB /* XCAInventoryTrackerApp.swift */; };
+		C2FE28442A7D9FF8002B80CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FE28432A7D9FF8002B80CB /* Assets.xcassets */; };
+		C2FE28472A7D9FF8002B80CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FE28462A7D9FF8002B80CB /* Preview Assets.xcassets */; };
+		C2FE28512A7D9FF8002B80CB /* XCAInventoryTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE28502A7D9FF8002B80CB /* XCAInventoryTrackerTests.swift */; };
+		C2FE285B2A7D9FF8002B80CB /* XCAInventoryTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE285A2A7D9FF8002B80CB /* XCAInventoryTrackerUITests.swift */; };
+		C2FE285D2A7D9FF8002B80CB /* XCAInventoryTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE285C2A7D9FF8002B80CB /* XCAInventoryTrackerUITestsLaunchTests.swift */; };
+		C2FE28722A7DA039002B80CB /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE28712A7DA039002B80CB /* RealityKitContent */; };
+		C2FE28742A7DA039002B80CB /* XCInventoryTrackerVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE28732A7DA039002B80CB /* XCInventoryTrackerVisionApp.swift */; };
+		C2FE28762A7DA039002B80CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE28752A7DA039002B80CB /* ContentView.swift */; };
+		C2FE28782A7DA03D002B80CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FE28772A7DA03D002B80CB /* Assets.xcassets */; };
+		C2FE287B2A7DA03D002B80CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FE287A2A7DA03D002B80CB /* Preview Assets.xcassets */; };
+		C2FE28852A7DA03D002B80CB /* XCInventoryTrackerVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE28842A7DA03D002B80CB /* XCInventoryTrackerVisionTests.swift */; };
+		C2FE288F2A7DA32D002B80CB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE288E2A7DA32D002B80CB /* FirebaseFirestore */; };
+		C2FE28912A7DA32D002B80CB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE28902A7DA32D002B80CB /* FirebaseFirestoreSwift */; };
+		C2FE28932A7DA32D002B80CB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE28922A7DA32D002B80CB /* FirebaseStorage */; };
+		C2FE28952A7DA33D002B80CB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE28942A7DA33D002B80CB /* FirebaseFirestore */; };
+		C2FE28972A7DA33D002B80CB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE28962A7DA33D002B80CB /* FirebaseFirestoreSwift */; };
+		C2FE28992A7DA33D002B80CB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C2FE28982A7DA33D002B80CB /* FirebaseStorage */; };
+		C2FE289B2A7DA603002B80CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FE289A2A7DA603002B80CB /* GoogleService-Info.plist */; };
+		C2FE289D2A7DA626002B80CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FE289C2A7DA626002B80CB /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2FE284D2A7D9FF8002B80CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FE28342A7D9FF5002B80CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FE283B2A7D9FF5002B80CB;
+			remoteInfo = XCAInventoryTracker;
+		};
+		C2FE28572A7D9FF8002B80CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FE28342A7D9FF5002B80CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FE283B2A7D9FF5002B80CB;
+			remoteInfo = XCAInventoryTracker;
+		};
+		C2FE28812A7DA03D002B80CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FE28342A7D9FF5002B80CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FE286C2A7DA039002B80CB;
+			remoteInfo = XCInventoryTrackerVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C270A13B2A7DB28C003524E7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C28EFD5D2A7DC0C200D59D37 /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		C2AC0C182A7DB025009DDD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2AC0C192A7DB05B009DDD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2B446672A7DC2D900DE7769 /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
+		C2B446682A7DC43600DE7769 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C2B4466C2A7DC49200DE7769 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		C2B446702A7DE5FF00DE7769 /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		C2B446742A7DE65E00DE7769 /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
+		C2B446772A7E4E8900DE7769 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		C2BAD3D92A7E7D620022995C /* USDZItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZItemProvider.swift; sourceTree = "<group>"; };
+		C2C4963B2A7E59970096316B /* NavigationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVM.swift; sourceTree = "<group>"; };
+		C2C4963D2A7E5A090096316B /* InventoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemView.swift; sourceTree = "<group>"; };
+		C2C4963F2A7E5A4B0096316B /* InventoryItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemVM.swift; sourceTree = "<group>"; };
+		C2C496412A7E618C0096316B /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		C2FE283C2A7D9FF5002B80CB /* XCAInventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAInventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE283F2A7D9FF5002B80CB /* XCAInventoryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAInventoryTrackerApp.swift; sourceTree = "<group>"; };
+		C2FE28432A7D9FF8002B80CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FE28462A7D9FF8002B80CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2FE284C2A7D9FF8002B80CB /* XCAInventoryTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCAInventoryTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE28502A7D9FF8002B80CB /* XCAInventoryTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAInventoryTrackerTests.swift; sourceTree = "<group>"; };
+		C2FE28562A7D9FF8002B80CB /* XCAInventoryTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCAInventoryTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE285A2A7D9FF8002B80CB /* XCAInventoryTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAInventoryTrackerUITests.swift; sourceTree = "<group>"; };
+		C2FE285C2A7D9FF8002B80CB /* XCAInventoryTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAInventoryTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2FE286D2A7DA039002B80CB /* XCInventoryTrackerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCInventoryTrackerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE28702A7DA039002B80CB /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C2FE28732A7DA039002B80CB /* XCInventoryTrackerVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCInventoryTrackerVisionApp.swift; sourceTree = "<group>"; };
+		C2FE28752A7DA039002B80CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2FE28772A7DA03D002B80CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FE287A2A7DA03D002B80CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2FE28802A7DA03D002B80CB /* XCInventoryTrackerVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCInventoryTrackerVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE28842A7DA03D002B80CB /* XCInventoryTrackerVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCInventoryTrackerVisionTests.swift; sourceTree = "<group>"; };
+		C2FE289A2A7DA603002B80CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2FE289C2A7DA626002B80CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FE28392A7D9FF5002B80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE288F2A7DA32D002B80CB /* FirebaseFirestore in Frameworks */,
+				C2FE28912A7DA32D002B80CB /* FirebaseFirestoreSwift in Frameworks */,
+				C2FE28932A7DA32D002B80CB /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE28492A7D9FF8002B80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE28532A7D9FF8002B80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE286A2A7DA039002B80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE28722A7DA039002B80CB /* RealityKitContent in Frameworks */,
+				C2FE28992A7DA33D002B80CB /* FirebaseStorage in Frameworks */,
+				C2FE28952A7DA33D002B80CB /* FirebaseFirestore in Frameworks */,
+				C2FE28972A7DA33D002B80CB /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE287D2A7DA03D002B80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C270A13E2A7DB885003524E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C28EFD5D2A7DC0C200D59D37 /* Inventory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2AC0C1A2A7DB093009DDD23 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C2B446662A7DC2B900DE7769 /* Observables */,
+				C270A13E2A7DB885003524E7 /* Models */,
+				C270A13B2A7DB28C003524E7 /* AppDelegate.swift */,
+				C2B446682A7DC43600DE7769 /* String+Extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C2B446662A7DC2B900DE7769 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				C2B446672A7DC2D900DE7769 /* InventoryListVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		C2B4466B2A7DC47C00DE7769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4466C2A7DC49200DE7769 /* InventoryListView.swift */,
+				C2B446702A7DE5FF00DE7769 /* InventoryFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2B446722A7DE63600DE7769 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				C2B446742A7DE65E00DE7769 /* InventoryFormVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		C2B446762A7E4E7800DE7769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2C4963D2A7E5A090096316B /* InventoryItemView.swift */,
+				C2B446772A7E4E8900DE7769 /* InventoryListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2C4963A2A7E59890096316B /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				C2C4963F2A7E5A4B0096316B /* InventoryItemVM.swift */,
+				C2C4963B2A7E59970096316B /* NavigationVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		C2FE28332A7D9FF5002B80CB = {
+			isa = PBXGroup;
+			children = (
+				C2AC0C1A2A7DB093009DDD23 /* Shared */,
+				C2FE283E2A7D9FF5002B80CB /* XCAInventoryTracker */,
+				C2FE284F2A7D9FF8002B80CB /* XCAInventoryTrackerTests */,
+				C2FE28592A7D9FF8002B80CB /* XCAInventoryTrackerUITests */,
+				C2FE286E2A7DA039002B80CB /* XCInventoryTrackerVision */,
+				C2FE286F2A7DA039002B80CB /* Packages */,
+				C2FE28832A7DA03D002B80CB /* XCInventoryTrackerVisionTests */,
+				C2FE283D2A7D9FF5002B80CB /* Products */,
+				C2FE288D2A7DA32D002B80CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FE283D2A7D9FF5002B80CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE283C2A7D9FF5002B80CB /* XCAInventoryTracker.app */,
+				C2FE284C2A7D9FF8002B80CB /* XCAInventoryTrackerTests.xctest */,
+				C2FE28562A7D9FF8002B80CB /* XCAInventoryTrackerUITests.xctest */,
+				C2FE286D2A7DA039002B80CB /* XCInventoryTrackerVision.app */,
+				C2FE28802A7DA03D002B80CB /* XCInventoryTrackerVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FE283E2A7D9FF5002B80CB /* XCAInventoryTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C2B446722A7DE63600DE7769 /* Observables */,
+				C2B4466B2A7DC47C00DE7769 /* Views */,
+				C2AC0C182A7DB025009DDD23 /* Info.plist */,
+				C2FE289C2A7DA626002B80CB /* GoogleService-Info.plist */,
+				C2FE283F2A7D9FF5002B80CB /* XCAInventoryTrackerApp.swift */,
+				C2FE28432A7D9FF8002B80CB /* Assets.xcassets */,
+				C2FE28452A7D9FF8002B80CB /* Preview Content */,
+			);
+			path = XCAInventoryTracker;
+			sourceTree = "<group>";
+		};
+		C2FE28452A7D9FF8002B80CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE28462A7D9FF8002B80CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2FE284F2A7D9FF8002B80CB /* XCAInventoryTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE28502A7D9FF8002B80CB /* XCAInventoryTrackerTests.swift */,
+			);
+			path = XCAInventoryTrackerTests;
+			sourceTree = "<group>";
+		};
+		C2FE28592A7D9FF8002B80CB /* XCAInventoryTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE285A2A7D9FF8002B80CB /* XCAInventoryTrackerUITests.swift */,
+				C2FE285C2A7D9FF8002B80CB /* XCAInventoryTrackerUITestsLaunchTests.swift */,
+			);
+			path = XCAInventoryTrackerUITests;
+			sourceTree = "<group>";
+		};
+		C2FE286E2A7DA039002B80CB /* XCInventoryTrackerVision */ = {
+			isa = PBXGroup;
+			children = (
+				C2B446762A7E4E7800DE7769 /* Views */,
+				C2C4963A2A7E59890096316B /* Observables */,
+				C2AC0C192A7DB05B009DDD23 /* Info.plist */,
+				C2FE289A2A7DA603002B80CB /* GoogleService-Info.plist */,
+				C2FE28732A7DA039002B80CB /* XCInventoryTrackerVisionApp.swift */,
+				C2FE28752A7DA039002B80CB /* ContentView.swift */,
+				C2FE28772A7DA03D002B80CB /* Assets.xcassets */,
+				C2FE28792A7DA03D002B80CB /* Preview Content */,
+				C2BAD3D92A7E7D620022995C /* USDZItemProvider.swift */,
+				C2C496412A7E618C0096316B /* URL+Extension.swift */,
+			);
+			path = XCInventoryTrackerVision;
+			sourceTree = "<group>";
+		};
+		C2FE286F2A7DA039002B80CB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE28702A7DA039002B80CB /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C2FE28792A7DA03D002B80CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE287A2A7DA03D002B80CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2FE28832A7DA03D002B80CB /* XCInventoryTrackerVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE28842A7DA03D002B80CB /* XCInventoryTrackerVisionTests.swift */,
+			);
+			path = XCInventoryTrackerVisionTests;
+			sourceTree = "<group>";
+		};
+		C2FE288D2A7DA32D002B80CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FE283B2A7D9FF5002B80CB /* XCAInventoryTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FE28602A7D9FF8002B80CB /* Build configuration list for PBXNativeTarget "XCAInventoryTracker" */;
+			buildPhases = (
+				C2FE28382A7D9FF5002B80CB /* Sources */,
+				C2FE28392A7D9FF5002B80CB /* Frameworks */,
+				C2FE283A2A7D9FF5002B80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCAInventoryTracker;
+			packageProductDependencies = (
+				C2FE288E2A7DA32D002B80CB /* FirebaseFirestore */,
+				C2FE28902A7DA32D002B80CB /* FirebaseFirestoreSwift */,
+				C2FE28922A7DA32D002B80CB /* FirebaseStorage */,
+			);
+			productName = XCAInventoryTracker;
+			productReference = C2FE283C2A7D9FF5002B80CB /* XCAInventoryTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2FE284B2A7D9FF8002B80CB /* XCAInventoryTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FE28632A7D9FF8002B80CB /* Build configuration list for PBXNativeTarget "XCAInventoryTrackerTests" */;
+			buildPhases = (
+				C2FE28482A7D9FF8002B80CB /* Sources */,
+				C2FE28492A7D9FF8002B80CB /* Frameworks */,
+				C2FE284A2A7D9FF8002B80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FE284E2A7D9FF8002B80CB /* PBXTargetDependency */,
+			);
+			name = XCAInventoryTrackerTests;
+			productName = XCAInventoryTrackerTests;
+			productReference = C2FE284C2A7D9FF8002B80CB /* XCAInventoryTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2FE28552A7D9FF8002B80CB /* XCAInventoryTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FE28662A7D9FF8002B80CB /* Build configuration list for PBXNativeTarget "XCAInventoryTrackerUITests" */;
+			buildPhases = (
+				C2FE28522A7D9FF8002B80CB /* Sources */,
+				C2FE28532A7D9FF8002B80CB /* Frameworks */,
+				C2FE28542A7D9FF8002B80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FE28582A7D9FF8002B80CB /* PBXTargetDependency */,
+			);
+			name = XCAInventoryTrackerUITests;
+			productName = XCAInventoryTrackerUITests;
+			productReference = C2FE28562A7D9FF8002B80CB /* XCAInventoryTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C2FE286C2A7DA039002B80CB /* XCInventoryTrackerVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FE28862A7DA03D002B80CB /* Build configuration list for PBXNativeTarget "XCInventoryTrackerVision" */;
+			buildPhases = (
+				C2FE28692A7DA039002B80CB /* Sources */,
+				C2FE286A2A7DA039002B80CB /* Frameworks */,
+				C2FE286B2A7DA039002B80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCInventoryTrackerVision;
+			packageProductDependencies = (
+				C2FE28712A7DA039002B80CB /* RealityKitContent */,
+				C2FE28942A7DA33D002B80CB /* FirebaseFirestore */,
+				C2FE28962A7DA33D002B80CB /* FirebaseFirestoreSwift */,
+				C2FE28982A7DA33D002B80CB /* FirebaseStorage */,
+			);
+			productName = XCInventoryTrackerVision;
+			productReference = C2FE286D2A7DA039002B80CB /* XCInventoryTrackerVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2FE287F2A7DA03D002B80CB /* XCInventoryTrackerVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FE28892A7DA03D002B80CB /* Build configuration list for PBXNativeTarget "XCInventoryTrackerVisionTests" */;
+			buildPhases = (
+				C2FE287C2A7DA03D002B80CB /* Sources */,
+				C2FE287D2A7DA03D002B80CB /* Frameworks */,
+				C2FE287E2A7DA03D002B80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FE28822A7DA03D002B80CB /* PBXTargetDependency */,
+			);
+			name = XCInventoryTrackerVisionTests;
+			productName = XCInventoryTrackerVisionTests;
+			productReference = C2FE28802A7DA03D002B80CB /* XCInventoryTrackerVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FE28342A7D9FF5002B80CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C2FE283B2A7D9FF5002B80CB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C2FE284B2A7D9FF8002B80CB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C2FE283B2A7D9FF5002B80CB;
+					};
+					C2FE28552A7D9FF8002B80CB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C2FE283B2A7D9FF5002B80CB;
+					};
+					C2FE286C2A7DA039002B80CB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C2FE287F2A7DA03D002B80CB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C2FE286C2A7DA039002B80CB;
+					};
+				};
+			};
+			buildConfigurationList = C2FE28372A7D9FF5002B80CB /* Build configuration list for PBXProject "XCAInventoryTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2FE28332A7D9FF5002B80CB;
+			packageReferences = (
+				C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C2FE283D2A7D9FF5002B80CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FE283B2A7D9FF5002B80CB /* XCAInventoryTracker */,
+				C2FE284B2A7D9FF8002B80CB /* XCAInventoryTrackerTests */,
+				C2FE28552A7D9FF8002B80CB /* XCAInventoryTrackerUITests */,
+				C2FE286C2A7DA039002B80CB /* XCInventoryTrackerVision */,
+				C2FE287F2A7DA03D002B80CB /* XCInventoryTrackerVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FE283A2A7D9FF5002B80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE28472A7D9FF8002B80CB /* Preview Assets.xcassets in Resources */,
+				C2FE28442A7D9FF8002B80CB /* Assets.xcassets in Resources */,
+				C2FE289D2A7DA626002B80CB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE284A2A7D9FF8002B80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE28542A7D9FF8002B80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE286B2A7DA039002B80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE287B2A7DA03D002B80CB /* Preview Assets.xcassets in Resources */,
+				C2FE28782A7DA03D002B80CB /* Assets.xcassets in Resources */,
+				C2FE289B2A7DA603002B80CB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE287E2A7DA03D002B80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FE28382A7D9FF5002B80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28EFD5E2A7DC0C200D59D37 /* Inventory.swift in Sources */,
+				C2B4466F2A7DC79100DE7769 /* InventoryListVM.swift in Sources */,
+				C2B4466D2A7DC4B800DE7769 /* InventoryListView.swift in Sources */,
+				C2B446752A7DE92200DE7769 /* InventoryFormVM.swift in Sources */,
+				C270A13C2A7DB28C003524E7 /* AppDelegate.swift in Sources */,
+				C2B4466A2A7DC43600DE7769 /* String+Extension.swift in Sources */,
+				C2FE28402A7D9FF5002B80CB /* XCAInventoryTrackerApp.swift in Sources */,
+				C2B446712A7DE5FF00DE7769 /* InventoryFormView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE28482A7D9FF8002B80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE28512A7D9FF8002B80CB /* XCAInventoryTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE28522A7D9FF8002B80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE285B2A7D9FF8002B80CB /* XCAInventoryTrackerUITests.swift in Sources */,
+				C2FE285D2A7D9FF8002B80CB /* XCAInventoryTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE28692A7DA039002B80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28EFD5F2A7DC0C200D59D37 /* Inventory.swift in Sources */,
+				C2C496422A7E618C0096316B /* URL+Extension.swift in Sources */,
+				C270A13D2A7DB28C003524E7 /* AppDelegate.swift in Sources */,
+				C2BAD3DA2A7E7D620022995C /* USDZItemProvider.swift in Sources */,
+				C2FE28762A7DA039002B80CB /* ContentView.swift in Sources */,
+				C2B446692A7DC43600DE7769 /* String+Extension.swift in Sources */,
+				C2FE28742A7DA039002B80CB /* XCInventoryTrackerVisionApp.swift in Sources */,
+				C2C4963E2A7E5A090096316B /* InventoryItemView.swift in Sources */,
+				C2C4963C2A7E59A10096316B /* NavigationVM.swift in Sources */,
+				C2B4466E2A7DC79000DE7769 /* InventoryListVM.swift in Sources */,
+				C2C496402A7E5A4B0096316B /* InventoryItemVM.swift in Sources */,
+				C2B446782A7E4E8E00DE7769 /* InventoryListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE287C2A7DA03D002B80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE28852A7DA03D002B80CB /* XCInventoryTrackerVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2FE284E2A7D9FF8002B80CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FE283B2A7D9FF5002B80CB /* XCAInventoryTracker */;
+			targetProxy = C2FE284D2A7D9FF8002B80CB /* PBXContainerItemProxy */;
+		};
+		C2FE28582A7D9FF8002B80CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FE283B2A7D9FF5002B80CB /* XCAInventoryTracker */;
+			targetProxy = C2FE28572A7D9FF8002B80CB /* PBXContainerItemProxy */;
+		};
+		C2FE28822A7DA03D002B80CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FE286C2A7DA039002B80CB /* XCInventoryTrackerVision */;
+			targetProxy = C2FE28812A7DA03D002B80CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2FE285E2A7D9FF8002B80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2FE285F2A7D9FF8002B80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FE28612A7D9FF8002B80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCAInventoryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCAInventoryTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCAInventoryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2FE28622A7D9FF8002B80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCAInventoryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCAInventoryTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCAInventoryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2FE28642A7D9FF8002B80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCAInventoryTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCAInventoryTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCAInventoryTracker";
+			};
+			name = Debug;
+		};
+		C2FE28652A7D9FF8002B80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCAInventoryTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCAInventoryTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCAInventoryTracker";
+			};
+			name = Release;
+		};
+		C2FE28672A7D9FF8002B80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCAInventoryTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XCAInventoryTracker;
+			};
+			name = Debug;
+		};
+		C2FE28682A7D9FF8002B80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCAInventoryTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XCAInventoryTracker;
+			};
+			name = Release;
+		};
+		C2FE28872A7DA03D002B80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCInventoryTrackerVision/Preview Content\"";
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCInventoryTrackerVision/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCInventoryTrackerVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		C2FE28882A7DA03D002B80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCInventoryTrackerVision/Preview Content\"";
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCInventoryTrackerVision/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCInventoryTrackerVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		C2FE288A2A7DA03D002B80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCInventoryTrackerVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCInventoryTrackerVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCInventoryTrackerVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		C2FE288B2A7DA03D002B80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA5S556JWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedlife.XCInventoryTrackerVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCInventoryTrackerVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCInventoryTrackerVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FE28372A7D9FF5002B80CB /* Build configuration list for PBXProject "XCAInventoryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FE285E2A7D9FF8002B80CB /* Debug */,
+				C2FE285F2A7D9FF8002B80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FE28602A7D9FF8002B80CB /* Build configuration list for PBXNativeTarget "XCAInventoryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FE28612A7D9FF8002B80CB /* Debug */,
+				C2FE28622A7D9FF8002B80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FE28632A7D9FF8002B80CB /* Build configuration list for PBXNativeTarget "XCAInventoryTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FE28642A7D9FF8002B80CB /* Debug */,
+				C2FE28652A7D9FF8002B80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FE28662A7D9FF8002B80CB /* Build configuration list for PBXNativeTarget "XCAInventoryTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FE28672A7D9FF8002B80CB /* Debug */,
+				C2FE28682A7D9FF8002B80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FE28862A7DA03D002B80CB /* Build configuration list for PBXNativeTarget "XCInventoryTrackerVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FE28872A7DA03D002B80CB /* Debug */,
+				C2FE28882A7DA03D002B80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FE28892A7DA03D002B80CB /* Build configuration list for PBXNativeTarget "XCInventoryTrackerVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FE288A2A7DA03D002B80CB /* Debug */,
+				C2FE288B2A7DA03D002B80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2FE28712A7DA039002B80CB /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		C2FE288E2A7DA32D002B80CB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C2FE28902A7DA32D002B80CB /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C2FE28922A7DA32D002B80CB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C2FE28942A7DA33D002B80CB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C2FE28962A7DA33D002B80CB /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C2FE28982A7DA33D002B80CB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2FE288C2A7DA2F0002B80CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C2FE28342A7D9FF5002B80CB /* Project object */;
+}
